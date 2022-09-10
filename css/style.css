@@ -453,7 +453,6 @@ a.active {
     -moz-transition: box-shadow 0.5s ease-in 0.1s;
     -o-transition: box-shadow 0.5s ease-in 0.1s;
     -webkit-transition: box-shadow 0.5s ease-in;
-    -webkit-transition-delay: 0.1s;
     -webkit-transition: box-shadow 0.5s ease-in 0.1s;
     transition: box-shadow 0.5s ease-in 0.1s;
     color: white;
@@ -605,10 +604,6 @@ a.active {
     text-align: center;
 }
 
-.portfolio_item img {
-    /* -webkit-filter: grayscale(100%);
-    filter: grayscale(100%); */
-}
 
 .portfolio-padding {
     padding: 50px 0;
@@ -932,16 +927,17 @@ fieldset {
 
 /* ANIMATION FOR TEXT HEADER */
 #video {
-    animation: headanimation1 1.3s cubic-bezier(.77,0,.17,1) infinite alternate ;
+    animation: headanimation1 1.3s cubic-bezier(.77, 0, .17, 1) infinite alternate;
     animation-delay: 3px;
 }
-#video .design {
-    animation: headanimation1 1.4s cubic-bezier(.77,0,.17,1) infinite alternate ;
-    animation: delay 5px
 
+#video .design {
+    animation: headanimation1 1.4s cubic-bezier(.77, 0, .17, 1) infinite alternate;
+    animation: delay 5px
 }
+
 #video .enthu {
-    animation: headanimation1 1s cubic-bezier(.77,0,.17,1) infinite alternate ;
+    animation: headanimation1 1s cubic-bezier(.77, 0, .17, 1) infinite alternate;
     animation-delay: 7px;
 
 }
@@ -949,9 +945,11 @@ fieldset {
 @keyframes headanimation1 {
     0% {
         transform: translateX(0);
+        color: #95fe49;
     }
 
-    100%{
+    100% {
         transform: translateX(25px);
+        color: #0B1103;
     }
 }
