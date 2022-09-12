@@ -946,6 +946,7 @@ fieldset {
     0% {
         transform: translateX(0);
         color: #95fe49;
+        filter: hue-rotate(90deg);
     }
 
     100% {
