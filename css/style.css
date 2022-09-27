@@ -945,12 +945,12 @@ fieldset {
 @keyframes headanimation1 {
     0% {
         transform: translateX(0);
-        color: #95fe49;
+        background-color: #95fe49;
         filter: hue-rotate(90deg);
     }
 
     100% {
         transform: translateX(25px);
-        color: #0B1103;
+        background-color: #0B1103;
     }
 }
