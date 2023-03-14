@@ -103,7 +103,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #95fe49;
+    background-color: #0B1103;
     z-index: 10000
 }
 
@@ -139,7 +139,7 @@ body {
     width: 100%;
     -webkit-animation: rotation 1s linear infinite;
     animation: rotation 1s linear infinite;
-    border: 2px solid #0B1103;
+    border: 2px solid #97ff06;
     border-top: 2px solid transparent;
     border-radius: 100%
 }
@@ -302,7 +302,7 @@ a.active {
 ==================================================*/
 
 #home {
-    background: url(../img/Home.png);
+    background: url(../img/HomeDark.png);
     background-size: cover;
     height: 100vh;
 }
@@ -945,12 +945,12 @@ fieldset {
 @keyframes headanimation1 {
     0% {
         transform: translateX(0);
-        background-color: #95fe49;
+        color: #95fe49;
         filter: hue-rotate(90deg);
     }
 
     100% {
         transform: translateX(25px);
-        background-color: #0B1103;
+        color: red;
     }
 }
